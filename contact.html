@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Al-Attar Market - Your destination for authentic Middle Eastern groceries and spices"
+    />
+    <title>Contact Us - Al-Attar Market</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-style.css" />
+    <link rel="icon" href="img/alattar.jpg" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="img/alattar.jpg" alt="Al-Attar Market Logo" />
+      </a>
+
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav>
+        <div class="close-menu">
+          <i class="fas fa-times"></i>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html" class="nav-link">
+              <i class="fas fa-home"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="products.html" class="nav-link">
+              <i class="fas fa-shopping-basket"></i> Products
+            </a>
+          </li>
+          <li>
+            <a href="categories.html" class="nav-link">
+              <i class="fas fa-list"></i> Categories
+            </a>
+          </li>
+          <li>
+            <a href="cart.html" class="nav-link">
+              <i class="fas fa-shopping-cart"></i> Cart
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">
+              <i class="fas fa-info-circle"></i> About
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link active">
+              <i class="fas fa-envelope"></i> Contact
+            </a>
+          </li>
+          <li class="social-links-mobile">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="overlay"></div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+      <div class="hero-content">
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2 class="section-title">Contact Information</h2>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Phone</h3>
+                <p>01145862589</p>
+                <p>01145862589 (Fax)</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h3>Email</h3>
+                <p>support@alattarmarket.com</p>
+                <p>orders@alattarmarket.com</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Address</h3>
+                <p>El Minya, Egypt</p>
+                <p>Open: Mon-Sat 9:00 AM - 9:00 PM</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h2 class="section-title">Send Us a Message</h2>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number (Optional)</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="order">Order Question</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="wholesale">Wholesale Inquiry</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Type your message here"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.539239601197!2d30.75297121444353!3d28.099365316167498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14598fe2adf11a41%3A0x51f68b2655fd072e!2z2KfZhNmF2LHYuSDYp9mE2K3ZitmE!5e0!3m2!1sar!2seg!4v1714723876823!5m2!1sar!2seg"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-map-marker-alt"></i> El Minya, Egypt</p>
+          <p><i class="fas fa-phone"></i> 01145862589</p>
+          <p><i class="fas fa-envelope"></i> info@alattarmarket.com</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Al-Attar Market. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
